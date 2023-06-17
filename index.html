@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>TutorConnect</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+            <section class="header">
+                <nav>
+                    <a href="index.html"><img src="images/TutorConnect.png"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="">PROMOS</a></li>
+                            <li><a href="">OFFERS</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+
+            <div class="text-box">
+                <h1>Welcome to TutorConnect!</h1>
+                <p>Connect|Learn|Excel</p>
+                <a href=""class="hero-btn">Start Now!</a>
+            </div>
+
+        </section>
+
+        <!---Menu-->
+        <section class="menu">
+            <h1>Our Offers</h1>
+            <p>Start your journey today</p>
+
+            <div class="row">
+                <div class="menu-col">
+                    <h3>Basic</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="menu-col">
+                    <h3>Entry</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="menu-col">
+                    <h3>Advanced</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </section>
+
+        
+<!---di ko pa alam--->
+<section class="offer">
+    <h1>Plans</h1>
+    <p></p>
+    <section class="offers">
+        <div class="row">
+            <div class="offer-col">
+                <img src="images/st-1.jpg">
+                <h3>P500.00/month</h3>
+                <p>Subscribe and be a partner of our growing TutorConnect Educators! </p>
+            </div>
+            <div class="offer-col">
+                <img src="images/st-2.jpg">
+                <h3> P800.00/3months</h3>
+                <p>For a low price you can be part of TutorConnect Educators for a longer period of time!</p>
+            </div>
+            <div class="offer-col">
+                <img src="images/st-3.jpg">
+                <h3>Coming Soon!</h3>
+                <p>Check our upcoming Back to School Promo soon!</p>
+            </div>
+        </div>
+    </section>
+    
+    </div>
+</section>
+
+<!---Top Reviews-->
+<section class="review">
+    <h1>Reviews</h1>
+    <p>Some of our top reviews</p>
+    <div class="row">
+        <div class="review-col">
+            <div class="comment">
+                <img src="images/dreamybull.jpg" alt="" class="review-img">
+                <h3>Ambas Sing</h3>
+                <p>"This app is the best way to access easy knowledge. A literal life saver!"</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="review-col">
+            <div class="comment">
+                <img src="images/amabtupass.jpg" alt="" class="review-img">
+                <h3>Batu Khan</h3>
+                <p>"It is easy to use and the tutors are close to our age so we can really get a good connection."</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>TutorConnect works in parallel to promote the institution and cater to the needs of tutor's to communicate with students.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+</section>
+
+
+
+<!----JavaScript for Toggle Menu ----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+</body>
+</html>
